@@ -23,16 +23,16 @@
           loading="lazy">
         <span class="ms-2">vending-machine-mvc</span>
       </a>
+      <button class="btn btn-success" onclick="app.vendsController.addCash()">Insert $1.00</button>
+      <h3 class="mx-2">Money Entered: $<span id="cash-added"></span>.00</h3>
     </nav>
   </header>
   <main>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
-        </div>
+    <section class="container-fluid">
+      <div class="row" id="vend-items">
+
       </div>
-    </div>
+    </section>
   </main>
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
